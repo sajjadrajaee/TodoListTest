@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Grap;
+  src: url(../assets/GrapeNuts-Regular.ttf);
+}
+
+body {
+  background-color: bisque;
+  font-family: 'Grap', sans-serif;
+}
+
+.hello {
+  color: red;
+}
+
+.container {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.todolist {
+  background-color: aliceblue;
+  padding: 20px;
+  box-shadow: inset;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid dashed black;
+  height: 30px;
+  margin: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.main-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: aliceblue;
+}
+
+.main-input:active {
+  border: none;
+}
+
+.fa-turn-down {
+  transform: rotate(90deg);
+}
+
+ul {
+  list-style: none;
+  margin-left: -30px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  height: 40px;
+  border-bottom: 1px solid black;
+}
+
+.todoDesc {
+  width: 90%;
+  background-color: aliceblue;
+  border: none;
+  font-family: 'Grap', sans-serif;
+  font-size: 16px;
+}
+
+.todoDesc:active {
+  background-color: rgb(214, 231, 246);
+  border: none;
+}
+
+.threedots {
+  padding-left: 5px;
+}
+
+.completeButton {
+  width: 100%;
+  height: 30px;
+  background-color: brown;
+  border: 2px solid rgb(93, 0, 0);
+  color: aliceblue;
+}
+
+.completeButton:hover {
+  background-color: rgb(253, 24, 24);
+  border: 2px solid rgb(0, 0, 0);
+  color: white;
+}
